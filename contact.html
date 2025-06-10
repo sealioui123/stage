@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact - Attractiepark</title>
+<link rel="stylesheet" href="../layout.css" type="text/css" />
+</head>
+<body id="top">
+<header>
+  <div class="logo">
+    <img src="../images/logo.png" alt="Attractiepark Logo" />
+  </div>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="attractie.html">Attracties</a></li>
+      <li><a href="over-ons.html">Over ons</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="search-bar">
+    <input type="text" placeholder="Zoek..." />
+  </div>
+</header>
+
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li><a href="home.html">Section 1</a></li>
+        <li><a href="attractie.html">Section 2</a></li>
+        <li><a href="over-ons.html">Section 3</a></li>
+        <li class="active"><a href="contact.html">Section 4</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper col4">
+  <div id="content">
+    <h2>Neem contact met ons op</h2>
+    <form action="#" method="POST" novalidate>
+      <label for="naam">Naam</label>
+      <input type="text" id="naam" name="naam" placeholder="Je naam" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="Je e-mail" required />
+
+      <label for="onderwerp">Onderwerp</label>
+      <input type="text" id="onderwerp" name="onderwerp" placeholder="Onderwerp" required />
+
+      <label for="bericht">Bericht</label>
+      <textarea id="bericht" name="bericht" placeholder="Schrijf hier je bericht..." required></textarea>
+
+      <button type="submit">Verstuur</button>
+    </form>
+  </div>
+
+  <aside id="sidebar">
+    <h2>Externe links</h2>
+    <ul>
+      <li><a href="#">Attracties overzicht</a></li>
+      <li><a href="#">Openingstijden</a></li>
+      <li><a href="#">Parkregels</a></li>
+      <li><a href="#">Veelgestelde vragen</a></li>
+      <li><a href="#">Route & parkeren</a></li>
+    </ul>
+  </aside>
+</div>
+
+<footer>
+  <div id="copyright">
+    <p>Copyright &copy; 2023 - All Rights Reserved</p>
+  </div>
+</footer>
+
+</body>
+</html>
